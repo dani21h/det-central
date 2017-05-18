@@ -1798,10 +1798,10 @@
     .breadcumb_area {
         height: 300px;
         width: 100%;
-        background-image: url(img/bg-pattern/breadcumb.jpg);
+        background-image: url(images/activitesbanner.jpg);
         background-size: cover;
         position: relative;
-        z-index: 1;
+       /* z-index: 1;*/
     }
 
     .breadcumb_area:after {
