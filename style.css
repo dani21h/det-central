@@ -220,7 +220,7 @@
     ================================ */
 
     .top_header_area {
-        background-color: #f39c12;
+        background-color: rgba(26, 43, 81, 1);
         height: 50px;
         width: 100%;
     }
@@ -309,6 +309,7 @@
     .language_area .btn.btn-default:hover {
         background-color: #fff;
         color: #2c3e50;
+
     }
 
     .language_area .btn.btn-default i:first-child {
@@ -328,8 +329,17 @@
 
     .logo_area {
         padding: 29px 0;
+        text-align: center;
     }
-
+    .logo_area a{
+        color: rgba(26, 43, 81, 1);
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .logo_area a .lower-text{
+        font-size: 12px;
+        letter-spacing: 7px;
+    }
     .main_header_area {
         background-color: #fff;
         height: 90px;
@@ -1798,10 +1808,10 @@
     .breadcumb_area {
         height: 300px;
         width: 100%;
-        background-image: url(img/bg-pattern/breadcumb.jpg);
+        background-image: url(images/activitesbanner.jpg);
         background-size: cover;
         position: relative;
-        z-index: 1;
+       /* z-index: 1;*/
     }
 
     .breadcumb_area:after {
@@ -3588,7 +3598,7 @@
 
     .single_part_code_of_contact h3 span,
     .knowledgebase_area .accordions h3 span {
-        color: #f39c12;
+        color:
     }
 
     .single_part_code_of_contact > p {
