@@ -21,11 +21,11 @@
         $(".welcome_slides").owlCarousel({
             items: 1,
             margin: 0,
-            loop: true,
-            nav: true,
+            loop: false,
+            nav: false,
             navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
             dots: false,
-            autoplay: true,
+            autoplay: false,
             autoplayTimeout: 7000,
             smartSpeed: 500,
             autoplayHoverPause: false
