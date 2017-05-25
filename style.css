@@ -309,6 +309,7 @@
     .language_area .btn.btn-default:hover {
         background-color: #fff;
         color: #2c3e50;
+
     }
 
     .language_area .btn.btn-default i:first-child {
@@ -328,8 +329,17 @@
 
     .logo_area {
         padding: 29px 0;
+        text-align: center;
     }
-
+    .logo_area a{
+        color: rgba(26, 43, 81, 1);
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .logo_area a .lower-text{
+        font-size: 12px;
+        letter-spacing: 7px;
+    }
     .main_header_area {
         background-color: #fff;
         height: 90px;
